@@ -1,6 +1,6 @@
 function calcularLetraDNI(numeroDNI) {
   if (isNaN(numeroDNI) || numeroDNI <0 || numeroDNI > 999999999 {
-    return "Número de DNI inválido";
+    return "Número de DNI erróneo";
    }
 
   const letrasDNI = "TRWAGMYFPDXBNJZSQVHLCKE";
